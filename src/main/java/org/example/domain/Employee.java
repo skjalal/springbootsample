@@ -1,13 +1,15 @@
 package org.example.domain;
 
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "employee")
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 public class Employee {
 

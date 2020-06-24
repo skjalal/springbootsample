@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SpringBootSampleTest {
 
     @Test
-    void textContext() {
-        assertTrue(1==1);
+    void contextLoads() {
+        assertTrue(true);
     }
 }
