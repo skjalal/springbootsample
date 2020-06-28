@@ -2,6 +2,8 @@ logging:
   level:
     web: debug
 spring:
+  application:
+    name: springbootsample
   datasource:
     url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
